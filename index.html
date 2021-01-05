@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Raad het getal!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Raad het getal!</h1>
+      <p class="between">(Tussen 1 en 20)</p>
+      <button class="tryAgain">Opnieuw!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="Raad" />
+        <button class="check">Controleer!</button>
+      </section>
+      <section class="right">
+        <p class="message">Begin te raden...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highScore">0</span>
+        </p>
+      </section>
+      <img id="confetti" src="confetti-47.gif" alt="confetti">
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
